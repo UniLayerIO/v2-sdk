@@ -4,11 +4,11 @@ import JSBI from 'jsbi'
 /**
  * @deprecated use FACTORY_ADDRESS_MAP instead
  */
-export const FACTORY_ADDRESS = '0x5C69bEe701ef814a2B6a3EDD4B1652CB9cc5aA6f'
+export const FACTORY_ADDRESS = '0xC018Fe11D1e4aa743646e22E87E051f901f4B349'
 
 export const FACTORY_ADDRESS_MAP: { [chainId: number]: string } = V2_FACTORY_ADDRESSES
 
-export const INIT_CODE_HASH = '0x96e8ac4277198ff8b6f785478aa9a39f403cb768dd02cbee326c3e7da348845f'
+export const INIT_CODE_HASH = '0x2848661415a521e1b5411ed789d7aad919139b356db296582c9ab88249e440be'
 
 export const MINIMUM_LIQUIDITY = JSBI.BigInt(1000)
 
